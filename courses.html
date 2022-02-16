@@ -52,29 +52,53 @@
             <li class="nav-item @@about">
               <a class="nav-link" href="about.html">About UC</a>
             </li>
-            <li class="nav-item @@about">
-              <a class="nav-link" href="#">Admissions</a>
+            <li class="nav-item dropdown view">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Admissions
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">           
+                <a class="dropdown-item" href="#">Grade School And Junior High School</a>
+                <a class="dropdown-item" href="#">Senior High School</a>
+                <a class="dropdown-item" href="#">Undergraduate Programs</a>
+                <a class="dropdown-item" href="#">Graduate Programs</a>
+                <a class="dropdown-item" href="#">Juris Doctor</a>
+                <a class="dropdown-item" href="#">International Students</a>
+              </div>
             </li>
-            <li class="nav-item @@courses">
-              <a class="nav-link" href="courses.html">Academics</a>
+            <li class="nav-item dropdown view">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Academics
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">    
+                <h4>Undergraduate & Graduate Programs</h4>       
+                <a class="dropdown-item" href="crim.html">Criminal Justice Education</a>
+                <a class="dropdown-item" href="itcs.html">Information Technology and Computer Science</a>
+                <a class="dropdown-item" href="tedu.html">Teacher Education</a>
+                <a class="dropdown-item" href="acc.html">Accountancy</a>
+                <a class="dropdown-item" href="aNs.html">Arts & Science</a>
+                <a class="dropdown-item" href="BuA.html">Business Administration</a>
+                <a class="dropdown-item" href="cea.html">Engineering & Architecture</a>
+                <a class="dropdown-item" href="chtm.html">Hospitality and Tourism Management</a>
+                <a class="dropdown-item" href="nrg.html">Nursing</a>
+                <a class="dropdown-item" href="claw.html">Law</a>
+                <h4>Integrated School</h4> 
+                <a class="dropdown-item" href="jhs.html">Grade School & Junior High School</a>
+                <a class="dropdown-item" href="shs.html">Senior High School</a>
+              </div>
             </li>
             <li class="nav-item @@courses">
               <a class="nav-link" href="research.html">Research</a>
             </li>
-            
-            <li class="nav-item dropdown view">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false">
-                Pages
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="research.html">Research</a>
-                <a class="dropdown-item" href="scholarship.html">Scholarship</a>
-                <a class="dropdown-item" href="course-single.html">Course Details</a>
-                <a class="dropdown-item" href="event-single.html">Event Details</a>
-                <a class="dropdown-item" href="latest.html">Latest @UC</a>
-              </div>
+            <li class="nav-item @@courses">
+              <a class="nav-link" href="#">International</a>
             </li>
+            <li class="nav-item @@courses">
+              <a class="nav-link" href="#">Alumni</a>
+            </li>
+            <li class="nav-item @@courses">
+              <a class="nav-link" href="#">Life @UC</a>
             
           </ul>
         </div>
@@ -83,70 +107,6 @@
   </div>
 </header>
 <!-- /header -->
-<!-- Modal -->
-<div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content rounded-0 border-0 p-4">
-            <div class="modal-header border-0">
-                <h3>Register</h3>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <div class="login">
-                    <form action="#" class="row">
-                        <div class="col-12">
-                            <input type="text" class="form-control mb-3" id="signupPhone" name="signupPhone" placeholder="Phone">
-                        </div>
-                        <div class="col-12">
-                            <input type="text" class="form-control mb-3" id="signupName" name="signupName" placeholder="Name">
-                        </div>
-                        <div class="col-12">
-                            <input type="email" class="form-control mb-3" id="signupEmail" name="signupEmail" placeholder="Email">
-                        </div>
-                        <div class="col-12">
-                            <input type="password" class="form-control mb-3" id="signupPassword" name="signupPassword" placeholder="Password">
-                        </div>
-                        <div class="col-12">
-                            <button type="submit" class="btn btn-primary">SIGN UP</button>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- Modal -->
-<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content rounded-0 border-0 p-4">
-            <div class="modal-header border-0">
-                <h3>Login</h3>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <form action="#" class="row">
-                    <div class="col-12">
-                        <input type="text" class="form-control mb-3" id="loginPhone" name="loginPhone" placeholder="Phone">
-                    </div>
-                    <div class="col-12">
-                        <input type="text" class="form-control mb-3" id="loginName" name="loginName" placeholder="Name">
-                    </div>
-                    <div class="col-12">
-                        <input type="password" class="form-control mb-3" id="loginPassword" name="loginPassword" placeholder="Password">
-                    </div>
-                    <div class="col-12">
-                        <button type="submit" class="btn btn-primary">LOGIN</button>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
-</div>
-
 
 <!-- courses -->
 <section class="section">
@@ -159,11 +119,11 @@
       <img class="card-img-top rounded-0" src="images/courses/c1.jpg" alt="course thumb">
       <div class="card-body">
         
-        <a href="course-single.html">
+        <a href="crim.html">
           <h4 class="card-title">CRIMINAL JUSTICE EDUCATION </h4>
         </a>
         <p class="card-text mb-4"> </p>
-        <a href="course-single.html" class="btn btn-primary btn-sm">Apply now</a>
+        <a href="crim.html" class="btn btn-primary btn-sm">Apply now</a>
       </div>
     </div>
   </div>
@@ -173,11 +133,11 @@
       <img class="card-img-top rounded-0" src="images/courses/c2.jpg" alt="course thumb">
       <div class="card-body">
         
-        <a href="course-single.html">
+        <a href="itcs.html">
           <h4 class="card-title">INFORMATION TECHNOLOGY & COMPUTER SCIENCE</h4>
         </a>
         <p class="card-text mb-4"> </p>
-        <a href="course-single.html" class="btn btn-primary btn-sm">Apply now</a>
+        <a href="itcs.html" class="btn btn-primary btn-sm">Apply now</a>
       </div>
     </div>
   </div>
@@ -187,11 +147,11 @@
       <img class="card-img-top rounded-0" src="images/courses/c3.jpg" alt="course thumb">
       <div class="card-body">
         
-        <a href="course-single.html">
+        <a href="tedu.html">
           <h4 class="card-title">TEACHER EDUCATION</h4>
         </a>
         <p class="card-text mb-4"> </p>
-        <a href="course-single.html" class="btn btn-primary btn-sm">Apply now</a>
+        <a href="tedu.html" class="btn btn-primary btn-sm">Apply now</a>
       </div>
     </div>
   </div>
@@ -201,11 +161,11 @@
       <img class="card-img-top rounded-0" src="images/courses/c4.jpg" alt="course thumb">
       <div class="card-body">
         
-        <a href="course-single.html">
+        <a href="acc.html">
           <h4 class="card-title">ACCOUNTANCY</h4>
         </a>
         <p class="card-text mb-4"> </p>
-        <a href="course-single.html" class="btn btn-primary btn-sm">Apply now</a>
+        <a href="acc.html" class="btn btn-primary btn-sm">Apply now</a>
       </div>
     </div>
   </div>
@@ -215,11 +175,11 @@
       <img class="card-img-top rounded-0" src="images/courses/c5.jpg" alt="course thumb">
       <div class="card-body">
         
-        <a href="course-single.html">
+        <a href="aNs.html">
           <h4 class="card-title">ARTS & SCIENCE</h4>
         </a>
         <p class="card-text mb-4"> </p>
-        <a href="course-single.html" class="btn btn-primary btn-sm">Apply now</a>
+        <a href="aNs.html" class="btn btn-primary btn-sm">Apply now</a>
       </div>
     </div>
   </div>
@@ -229,11 +189,11 @@
       <img class="card-img-top rounded-0" src="images/courses/c6.jpg" alt="course thumb">
       <div class="card-body">
         
-        <a href="course-single.html">
+        <a href="BuA.html">
           <h4 class="card-title">BUSINESS ADMINISTRATION</h4>
         </a>
         <p class="card-text mb-4"> </p>
-        <a href="course-single.html" class="btn btn-primary btn-sm">Apply now</a>
+        <a href="BuA.html" class="btn btn-primary btn-sm">Apply now</a>
       </div>
     </div>
   </div>
@@ -243,11 +203,11 @@
       <img class="card-img-top rounded-0" src="images/courses/c7.jpg" alt="course thumb">
       <div class="card-body">
         
-        <a href="course-single.html">
+        <a href="cea.html">
           <h4 class="card-title">ENGINEERING & ARCHITECTURE </h4>
         </a>
         <p class="card-text mb-4"> </p>
-        <a href="course-single.html" class="btn btn-primary btn-sm">Apply now</a>
+        <a href="cea.html" class="btn btn-primary btn-sm">Apply now</a>
       </div>
     </div>
   </div>
@@ -257,11 +217,11 @@
       <img class="card-img-top rounded-0" src="images/courses/c8.jpg" alt="course thumb">
       <div class="card-body">
         
-        <a href="course-single.html">
+        <a href="chtm.html">
           <h4 class="card-title">HOSPITALITY TOURISM & MANAGEMENT</h4>
         </a>
         <p class="card-text mb-4"> </p>
-        <a href="course-single.html" class="btn btn-primary btn-sm">Apply now</a>
+        <a href="chtm.html" class="btn btn-primary btn-sm">Apply now</a>
       </div>
     </div>
   </div>
@@ -271,11 +231,11 @@
       <img class="card-img-top rounded-0" src="images/courses/c9.jpg" alt="course thumb">
       <div class="card-body">
         
-        <a href="course-single.html">
+        <a href="nrg.html">
           <h4 class="card-title">NURSING</h4>
         </a>
         <p class="card-text mb-4"> </p>
-        <a href="course-single.html" class="btn btn-primary btn-sm">Apply now</a>
+        <a href="nrg.html" class="btn btn-primary btn-sm">Apply now</a>
       </div>
     </div>
   </div>
@@ -285,11 +245,11 @@
       <img class="card-img-top rounded-0" src="images/courses/c10.jpg" alt="course thumb">
       <div class="card-body">
         
-        <a href="course-single.html">
+        <a href="claw.html">
           <h4 class="card-title">LAW</h4>
         </a>
         <p class="card-text mb-4"> </p>
-        <a href="course-single.html" class="btn btn-primary btn-sm">Apply now</a>
+        <a href="claw.html" class="btn btn-primary btn-sm">Apply now</a>
       </div>
     </div>
   </div>
@@ -299,11 +259,11 @@
       <img class="card-img-top rounded-0" src="images/courses/c11.jpg" alt="course thumb">
       <div class="card-body">
         
-        <a href="course-single.html">
+        <a href="jhs.html">
           <h4 class="card-title">GRADUATE PROGRAMS</h4>
         </a>
         <p class="card-text mb-4"> </p>
-        <a href="course-single.html" class="btn btn-primary btn-sm">Apply now</a>
+        <a href="jhs.html" class="btn btn-primary btn-sm">Apply now</a>
       </div>
     </div>
   </div>
@@ -313,11 +273,11 @@
       <img class="card-img-top rounded-0" src="images/courses/c12.jpg" alt="course thumb">
       <div class="card-body">
         
-        <a href="course-single.html">
+        <a href="shs.html">
           <h4 class="card-title">INTEGRATED SCHOOLS</h4>
         </a>
         <p class="card-text mb-4"> </p>
-        <a href="course-single.html" class="btn btn-primary btn-sm">Apply now</a>
+        <a href="shs.html" class="btn btn-primary btn-sm">Apply now</a>
       </div>
     </div>
   </div>
@@ -354,7 +314,7 @@
             <li class="mb-3"><a class="text-color" href="latest.html">Latest @UC</a></li>
             <li class="mb-3"><a class="text-color" href="courses.html">Courses</a></li>
             <li class="mb-3"><a class="text-color" href="scholarship.html">Scholarship</a></li>
-            <li class="mb-3"><a class="text-color" href="event.html">Events</a></li>
+            
           </ul>
         </div>
         
@@ -362,7 +322,7 @@
         <div class="col-lg-2 col-md-3 col-sm-4 col-6 mb-5 mb-md-0">
           <h4 class="text-white mb-5"></h4>
           <ul class="list-unstyled">
-            <li class="mb-3"><a class="text-color" href="#">Join Us</a></li>
+            <li class="mb-3"><a class="text-color" href="join.html">Join Us</a></li>
             <li class="mb-3"><a class="text-color" href="contact.html">Contact Us</a></li>
             <li class="mb-3"><a class="text-color" href="#">Legacy Website</a></li>
           </ul>
@@ -380,10 +340,9 @@
         </div>
         <div class="col-sm-5 text-sm-right text-center">
           <ul class="list-inline">
-            <li class="list-inline-item"><a class="d-inline-block p-2" href="https://www.facebook.com/UCjaguars"><i class="ti-facebook text-primary"></i></a></li>
-            <li class="list-inline-item"><a class="d-inline-block p-2" href="https://twitter.com/UCJaguars"><i class="ti-twitter-alt text-primary"></i></a></li>
-            <li class="list-inline-item"><a class="d-inline-block p-2" href="https://www.youtube.com/c/UniversityoftheCordillerasUCJaguars/featured"><i class="ti-youtube text-primary"></i></a></li>
-            
+            <li class="list-inline-item"><a class="d-inline-block p-2" href="https://www.facebook.com/UCjaguars/photos/?ref=page_internal"><i class="ti-facebook text-primary"></i></a><strong>Facebook</strong></li>
+            <li class="list-inline-item"><a class="d-inline-block p-2" href="https://twitter.com/UCJaguars"><i class="ti-twitter-alt text-primary"></i></a><strong>Twitter</strong></li>
+            <li class="list-inline-item"><a class="d-inline-block p-2" href="https://www.youtube.com/c/UniversityoftheCordillerasUCJaguars/featured"><i class="ti-youtube text-primary"></i></a><strong>Youtube</strong></li>
           </ul>
         </div>
       </div>
